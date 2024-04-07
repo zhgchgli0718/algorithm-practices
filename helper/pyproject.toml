@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "algorithm"
+name = "helper"
 version = "0.1.0"
 description = ""
 authors = ["ZhgChgLi <zhgchgli@gmail.com>"]
@@ -8,9 +8,6 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 
-[tool.poetry.dev-dependencies]
-pytest = "^7.2"
-helper = {path = "./helper", develop = true}
 
 [build-system]
 requires = ["poetry-core"]

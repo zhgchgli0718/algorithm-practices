@@ -1,14 +1,9 @@
+# https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/1218078472/
+# two points, linked list
+
+from helper.ListNode import ListNode
 from typing import Optional
 
-# https://leetcode.com/problems/middle-of-the-linked-list/submissions/1218055525/
-# two point
-
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-#
 class Solution:
     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
         i: Optional[ListNode] = head
